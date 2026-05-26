@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Your Name — Designer, Photographer & Creative" />
+  <meta property="og:title" content="Your Name — Portfolio" />
+  <meta property="og:description" content="Designer, Photographer & Creative based in your city." />
+  <meta property="og:image" content="assets/images/og-image.jpg" />
+  <title>Your Name — Portfolio</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+</head>
+<body>
+
+  <!-- ── NAV ── -->
+  <nav id="nav">
+    <a href="index.html" class="nav-logo">YN<span class="dot">.</span></a>
+    <button class="nav-toggle" aria-label="Toggle menu" id="navToggle">
+      <span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about">About</a></li>
+      <li><a href="works.html">Works</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="#contact" class="nav-cta">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- ── HERO ── -->
+  <header class="hero">
+    <div class="hero-bg-text" aria-hidden="true">PORTFOLIO</div>
+    <div class="hero-content">
+      <p class="hero-eyebrow reveal">Based in Your City · Available for projects</p>
+      <h1 class="hero-name reveal">
+        <span>Your</span>
+        <em>Name</em>
+      </h1>
+      <p class="hero-tagline reveal">Designer &amp; Photographer<br/>crafting visual stories</p>
+      <div class="hero-ctas reveal">
+        <a href="works.html" class="btn btn-primary">View My Work</a>
+        <a href="#about" class="btn btn-ghost">Learn More</a>
+      </div>
+    </div>
+    <div class="hero-scroll-hint" aria-hidden="true">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+    <div class="hero-stats">
+      <div class="stat reveal">
+        <span class="stat-num">50+</span>
+        <span class="stat-label">Projects</span>
+      </div>
+      <div class="stat reveal">
+        <span class="stat-num">8</span>
+        <span class="stat-label">Years Exp.</span>
+      </div>
+      <div class="stat reveal">
+        <span class="stat-num">30+</span>
+        <span class="stat-label">Clients</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- ── MARQUEE ── -->
+  <div class="marquee-strip" aria-hidden="true">
+    <div class="marquee-inner">
+      <span>Photography</span><span class="sep">✦</span>
+      <span>Design</span><span class="sep">✦</span>
+      <span>Branding</span><span class="sep">✦</span>
+      <span>Visual Art</span><span class="sep">✦</span>
+      <span>Storytelling</span><span class="sep">✦</span>
+      <span>Photography</span><span class="sep">✦</span>
+      <span>Design</span><span class="sep">✦</span>
+      <span>Branding</span><span class="sep">✦</span>
+      <span>Visual Art</span><span class="sep">✦</span>
+      <span>Storytelling</span><span class="sep">✦</span>
+    </div>
+  </div>
+
+  <!-- ── ABOUT ── -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-image-wrap reveal">
+          <div class="about-image-frame">
+            <!-- Replace with your actual photo: assets/images/profile/your-photo.jpg -->
+            <div class="about-image-placeholder">
+              <span>Your Photo</span>
+              <p>Replace with:<br/>assets/images/profile/photo.jpg</p>
+            </div>
+            <!-- Uncomment when you add your photo:
+            <img src="assets/images/profile/photo.jpg" alt="Your Name" />
+            -->
+          </div>
+          <div class="about-image-accent"></div>
+        </div>
+        <div class="about-text">
+          <p class="section-label reveal">About Me</p>
+          <h2 class="section-title reveal">I tell stories<br/><em>through visuals</em></h2>
+          <p class="about-bio reveal">
+            Hello! I'm <strong>Your Name</strong>, a creative professional based in Your City. 
+            I specialize in photography, visual design, and brand identity — helping people 
+            and businesses communicate their story with clarity and beauty.
+          </p>
+          <p class="about-bio reveal">
+            With over 8 years of experience across commercial, editorial, and personal projects, 
+            I bring a thoughtful, detail-driven approach to every piece of work I create. 
+            I believe great design is felt before it's understood.
+          </p>
+          <div class="about-skills reveal">
+            <span>Photography</span>
+            <span>Art Direction</span>
+            <span>Brand Identity</span>
+            <span>Editorial Design</span>
+            <span>UI / UX</span>
+            <span>Motion</span>
+          </div>
+          <div class="about-actions reveal">
+            <a href="assets/resume.pdf" class="btn btn-primary" target="_blank">Download CV</a>
+            <a href="#contact" class="btn btn-ghost">Get in touch</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FEATURED WORKS ── -->
+  <section class="works-preview" id="works">
+    <div class="container">
+      <div class="section-header">
+        <div>
+          <p class="section-label reveal">Selected Works</p>
+          <h2 class="section-title reveal">Recent <em>Projects</em></h2>
+        </div>
+        <a href="works.html" class="btn btn-ghost reveal">View All →</a>
+      </div>
+
+      <div class="works-grid">
+
+        <!-- WORK CARD 1 -->
+        <article class="work-card work-card--large reveal">
+          <a href="works.html">
+            <div class="work-card-img">
+              <!-- Replace: assets/images/works/project1.jpg -->
+              <div class="img-placeholder">Project Image 1<br/><small>assets/images/works/project1.jpg</small></div>
+              <!-- <img src="assets/images/works/project1.jpg" alt="Project One" /> -->
+            </div>
+            <div class="work-card-info">
+              <span class="work-tag">Photography</span>
+              <h3>Project Title One</h3>
+              <p>A short description of this amazing project and what it achieved.</p>
+            </div>
+          </a>
+        </article>
+
+        <!-- WORK CARD 2 -->
+        <article class="work-card reveal">
+          <a href="works.html">
+            <div class="work-card-img">
+              <div class="img-placeholder">Project Image 2<br/><small>assets/images/works/project2.jpg</small></div>
+            </div>
+            <div class="work-card-info">
+              <span class="work-tag">Design</span>
+              <h3>Project Title Two</h3>
+              <p>Brief project description here.</p>
+            </div>
+          </a>
+        </article>
+
+        <!-- WORK CARD 3 -->
+        <article class="work-card reveal">
+          <a href="works.html">
+            <div class="work-card-img">
+              <div class="img-placeholder">Project Image 3<br/><small>assets/images/works/project3.jpg</small></div>
+            </div>
+            <div class="work-card-info">
+              <span class="work-tag">Branding</span>
+              <h3>Project Title Three</h3>
+              <p>Brief project description here.</p>
+            </div>
+          </a>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── BLOG PREVIEW ── -->
+  <section class="blog-preview" id="blog">
+    <div class="container">
+      <div class="section-header">
+        <div>
+          <p class="section-label reveal">Thoughts &amp; Ideas</p>
+          <h2 class="section-title reveal">From the <em>Blog</em></h2>
+        </div>
+        <a href="blog.html" class="btn btn-ghost reveal">All Posts →</a>
+      </div>
+      <div class="blog-grid">
+
+        <article class="blog-card reveal">
+          <a href="blog-posts/post-template.html">
+            <div class="blog-card-img">
+              <div class="img-placeholder">Blog Image<br/><small>assets/images/blog/post1.jpg</small></div>
+              <!-- <img src="assets/images/blog/post1.jpg" alt="Post Title" /> -->
+            </div>
+            <div class="blog-card-body">
+              <span class="blog-date">January 15, 2025</span>
+              <h3>Your First Blog Post Title Goes Here</h3>
+              <p>A short excerpt from your post that gives readers a taste of what they'll find inside...</p>
+              <span class="read-more">Read More →</span>
+            </div>
+          </a>
+        </article>
+
+        <article class="blog-card reveal">
+          <a href="blog-posts/post-template.html">
+            <div class="blog-card-img">
+              <div class="img-placeholder">Blog Image<br/><small>assets/images/blog/post2.jpg</small></div>
+            </div>
+            <div class="blog-card-body">
+              <span class="blog-date">February 3, 2025</span>
+              <h3>Another Interesting Post Title</h3>
+              <p>A short excerpt from your post that gives readers a taste of what they'll find inside...</p>
+              <span class="read-more">Read More →</span>
+            </div>
+          </a>
+        </article>
+
+        <article class="blog-card reveal">
+          <a href="blog-posts/post-template.html">
+            <div class="blog-card-img">
+              <div class="img-placeholder">Blog Image<br/><small>assets/images/blog/post3.jpg</small></div>
+            </div>
+            <div class="blog-card-body">
+              <span class="blog-date">March 20, 2025</span>
+              <h3>Third Blog Post Title Here</h3>
+              <p>A short excerpt from your post that gives readers a taste of what they'll find inside...</p>
+              <span class="read-more">Read More →</span>
+            </div>
+          </a>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CONTACT ── -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-left">
+          <p class="section-label reveal">Get In Touch</p>
+          <h2 class="section-title reveal">Let's work<br/><em>together</em></h2>
+          <p class="contact-intro reveal">
+            Have a project in mind? I'd love to hear about it. 
+            Send me a message and let's create something remarkable.
+          </p>
+          <div class="contact-details reveal">
+            <div class="contact-item">
+              <span class="contact-icon">✉</span>
+              <a href="mailto:hello@yourdomain.com">hello@yourdomain.com</a>
+            </div>
+            <div class="contact-item">
+              <span class="contact-icon">📍</span>
+              <span>Your City, Country</span>
+            </div>
+            <div class="contact-item">
+              <span class="contact-icon">⏱</span>
+              <span>Response within 24 hours</span>
+            </div>
+          </div>
+          <div class="social-links reveal">
+            <a href="https://instagram.com/yourhandle" target="_blank" rel="noopener">Instagram</a>
+            <a href="https://twitter.com/yourhandle" target="_blank" rel="noopener">Twitter/X</a>
+            <a href="https://linkedin.com/in/yourhandle" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="https://github.com/yourhandle" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </div>
+        <div class="contact-right reveal">
+          <!-- Formspree: change action URL to your Formspree form endpoint -->
+          <form class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Your full name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="your@email.com" required />
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" placeholder="What's this about?" />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full">Send Message →</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ── -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-left">
+          <a href="index.html" class="nav-logo">YN<span class="dot">.</span></a>
+          <p>© <span id="year"></span> Your Name. All rights reserved.</p>
+        </div>
+        <div class="footer-links">
+          <a href="index.html">Home</a>
+          <a href="works.html">Works</a>
+          <a href="blog.html">Blog</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
